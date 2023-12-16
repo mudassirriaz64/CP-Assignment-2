@@ -13,7 +13,7 @@ int main() {
         user_input = user_input_function();
         result_function(user_input, result, error_check);
 
-        if (error_check = true) 
+        if (bool error_check = true) 
         {
             cout << "Result = " << result << endl;
         }
