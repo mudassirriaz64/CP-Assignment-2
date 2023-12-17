@@ -4,12 +4,14 @@ using namespace std;
 int user_input_function();
 void result_function(int user_input, int& result, bool& error_check);
 
-int main() {
+int main()
+{
     int user_input, result;
     bool error_check=false;
     char user_choice;
 
-    do {
+    do 
+    {
         user_input = user_input_function();
         result_function(user_input, result, error_check);
 
@@ -35,7 +37,7 @@ int user_input_function()
     return user_input;
 }
 
-void result_function(int user_input, int& result, bool& error_check) 
+void result_function(int user_input, int &result, bool &error_check) 
 {
     if (user_input < 0)
         result = -1;
