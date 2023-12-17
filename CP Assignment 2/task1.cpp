@@ -6,14 +6,14 @@ void result_function(int user_input, int& result, bool& error_check);
 
 int main() {
     int user_input, result;
-    bool error_check;
+    bool error_check=false;
     char user_choice;
 
     do {
         user_input = user_input_function();
         result_function(user_input, result, error_check);
 
-        if (bool error_check = true) 
+        if (error_check == false) 
         {
             cout << "Assigned value is " << result << endl;
         }
