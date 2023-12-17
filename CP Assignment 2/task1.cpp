@@ -15,7 +15,7 @@ int main() {
 
         if (bool error_check = true) 
         {
-            cout << "Result = " << result << endl;
+            cout << "Assigned value is " << result << endl;
         }
         else
         {
